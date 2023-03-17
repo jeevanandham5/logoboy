@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  
+}
+.ratinghead{
+text-align: center;
+font-family: sans-serif;
+margin-top: 30px;
+font-weight: lighter;
+height: 50%;
+
+}
+ h2{
+ 
+    font-family: "Nunito", Sans-serif;
+    font-size: 55px;
+    font-weight: 300;
+    text-align: center;
+   
+}
+.star{
+    align-items: center;
+    margin-top: 30px; 
+}
+p{
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Nunito", Sans-serif;
+    font-size: 20px;
+}
+.Avatar{
+   display: grid;
+   place-items: center;
+   margin-top: 30px;
+   margin-bottom: 5% ;
+}
+
+.body{
+    background-color: #b0c9ff;
+    display: grid;
+    place-items: center;
+}
+.making{
+    display: grid;
+    place-items: center;
+    background-image: url("https://logobly.com/wp-content/uploads/Logobly_logo_maker_startups_generator_footer.png");
+    width: 1204px;
+    height: 450px;
+   
+}
+.lastbtn{
+    
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Nunito", Sans-serif;
+    font-weight: bold;
+    background-color: #118df0;
+    padding: 25px 50px;
+    color: #fff;
+    border-radius: 6px;
+    
+}
+.lastbtn:hover{
+    background-color:indianred;
+    -webkit-box-shadow: 31px 34px 45px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 31px 34px 45px -2px rgba(0,0,0,0.75);
+box-shadow: 31px 34px 45px -2px rgba(0,0,0,0.75);
+
+}
+h1{
+    font-family: "Nunito", Sans-serif;
+    font-size: 55px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+    bottom: 100px;
+}
+.footer{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.copyrig{
+   overflow-y: hidden;
+}
+ul{
+    margin-top: 20px;
+    text-align: center;
+}
+li{
+    margin-top: 9px;
+}
+
+
+.icon{
+    display: flex;
+    align-items: center;
+    padding: auto;
+}

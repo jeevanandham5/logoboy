@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h6{
+ 
+    font-size: 55px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+    text-align: center; 
+}
+.loby{
+    
+    text-align: center;
+}
+.lobycont{
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+    justify-content:space-around;
+
+}

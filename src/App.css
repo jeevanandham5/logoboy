@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+header{
+  background-color: #fff;
+  
+
+
+}
+.containerone{
+
+  
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 79px;
+  overflow-y: hidden;
+  
+  
+}
+.button{
+  position: absolute;
+
+  font-family: "Nunito", Sans-serif;
+left: 65%;
+font-size: 16px;
+}
+.btnlink{
+text-decoration: none;
+font-family: 'Open Sans', sans-serif; 
+font-size: 16px;
+-webkit-box-shadow: 31px 34px 45px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 31px 34px 45px -2px rgba(0,0,0,0.75);
+box-shadow: 31px 34px 45px -2px rgba(0,0,0,0.75);
 }
